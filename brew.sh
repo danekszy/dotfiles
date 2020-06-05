@@ -20,6 +20,8 @@ brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
 brew install gnu-sed --with-default-names
 
+brew install gnupg
+brew install gpg-agent
 
 # Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
@@ -32,8 +34,8 @@ brew install homebrew/completions/brew-cask-completion
 # Install wget with IRI support
 brew install wget --with-iri
 
-# Install more recent versions of some OS X tools
-brew install vim --with-override-system-vi
+Install more recent versions of some OS X tools
+# brew install vim --with-override-system-vi
 brew install homebrew/dupes/nano
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
@@ -61,24 +63,37 @@ brew install mtr
 # Install other useful binaries
 brew install the_silver_searcher
 brew install fzf
+brew install openjpeg
+brew install flac
+brew install libheif
+brew install lame
+brew install webp
+brew install x265
+brew install x264
 
 brew install git
 brew install imagemagick --with-webp
 brew install node # This installs `npm` too using the recommended installation method
+brew install nvm
 brew install pv
 brew install rename
 brew install tree
 brew install zopfli
 brew install ffmpeg --with-libvpx
+# brew install rsync
+# brew install sqlite
 
 brew install terminal-notifier
 
-brew install android-platform-tools
+# brew install android-platform-tools
 brew install pidcat   # colored logcat guy
 
 brew install ncdu # find where your diskspace went
 
 brew install zsh
+brew install youtube-dl
+brew install jq
+# brew install mysql
 
 # Remove outdated versions from the cellar
 brew cleanup
